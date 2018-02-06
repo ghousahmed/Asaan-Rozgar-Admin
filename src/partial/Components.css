@@ -1,0 +1,145 @@
+
+/* Space out content a bit */
+adding-bottom: 20px;
+
+.container{
+  width: 100px
+}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+.btn-info{
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto;
+  float: right;
+  border: 2px solid yellowgreen;
+  color: yellowgreen
+}
+.btn-info:hover{
+  background-color: yellowgreen;
+  padding: 10px;
+ 
+  margin: 0 auto;
+  border: 2px solid white;
+  color: white
+}
+.btn-info:active{
+  background-color: yellowgreen;
+  padding: 10px;
+  
+  margin: 0 auto;
+  border: 2px solid white;
+  color: white
+}
+.main{
+  border-bottom:  5px solid yellowgreen;
+   border-top:  5px solid yellowgreen;
+  margin: 0 auto;
+  width: 90%;
+  padding: 10px;
+  
+  margin-bottom: 10px
+}
+
+.main1{
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 10px
+}
+.jobs{
+  margin: 0 auto;
+  width: 85%;
+  border-top: 3px solid yellowgreen
+}
+
+.mic-info{
+  float: right;
+}
+.link{
+  color: yellowgreen
+}
+
+.widget .panel-body { padding:0px; }
+.widget .list-group { margin-bottom: 0; }
+.widget .panel-title { display:inline }
+.widget .label-info { float: right; }
+.widget li.list-group-item {border-radius: 0;border: 0;border-top: 1px solid #ddd;}
+.widget li.list-group-item:hover { background-color: rgba(86,61,124,.1); }
+.widget .mic-info { color: #666666;font-size: 11px; }
+.widget .action { margin-top:5px; }
+.widget .comment-text { font-size: 12px; }
+.widget .btn-block { border-top-left-radius:0px;border-top-right-radius:0px; }
+.col-md-11{
+  width: auto
+}

@@ -1,0 +1,11 @@
+.sidebar:after, body > .navbar-collapse:after {
+    /* background: #787878; */
+    background: none;
+  
+    background: none;
+    background: none;
+    /* background: linear-gradient(to bottom, #787878 0%, #343434 100%); */
+    background-size: 150% 150%;
+    z-index: 3;
+    opacity: 1;
+}
